@@ -1,0 +1,3 @@
+alias gcm='git commit -m'
+alias bp='atom ~/.bash_profile'
+alias be='bundle exec'

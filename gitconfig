@@ -1,0 +1,16 @@
+[user]
+	email = tebatalla@gmail.com
+	name = Tomas Batalla
+[push]
+	default = simple
+[core]
+	editor = atom
+	excludesfile = /Users/tomasbatalla/.gitignore
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
