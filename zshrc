@@ -49,7 +49,7 @@ plugins=(git rails ruby)
 
 # User configuration
 
-export PATH="/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin"
+export PATH="/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/opt/local/bin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -80,3 +80,4 @@ source $HOME/.aliases
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+eval "$(hub alias -s)"
