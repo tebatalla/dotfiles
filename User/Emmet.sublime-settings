@@ -1,0 +1,9 @@
+{
+  "snippets": {
+    "css": {
+     "snippets": {
+       "clf": ".clearfix:after {\n\tdisplay: block;\n\tclear: both;\n\tcontent: \"\";\n}"
+     }
+    }
+  },
+}
