@@ -1,3 +1,8 @@
 alias gcm='git commit -m'
 alias bp='atom ~/.bash_profile'
 alias be='bundle exec'
+alias gph='git push heroku master'
+alias gcam='git commit -am'
+alias gs='git status'
+alias gaa='git add -A'
+alias ga='git add'
