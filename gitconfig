@@ -1,11 +1,11 @@
 [user]
-	email = tebatalla@gmail.com
 	name = Tomas Batalla
+	email = tbatalla@goodreads.com
+[amazon]
+	append-cr-url = true
+	pull-request-by-default = true
 [push]
 	default = simple
-[core]
-	editor = atom
-	excludesfile = /Users/tomasbatalla/.gitignore
 [alias]
 	co = checkout
 	br = branch

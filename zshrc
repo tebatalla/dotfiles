@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/tomasbatalla/.oh-my-zsh
+export ZSH=/Users/tbatalla/oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -84,3 +84,12 @@ eval "$(hub alias -s)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export PATH=/usr/local/bin:${PATH}
+export GOODREADS_RAILS_ROOT='/Users/tbatalla/code/goodreads_rails/rails-root'
+. $GOODREADS_RAILS_ROOT/script/platform/aliases.sh
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export PS1='\W $ ' 
+export GOODREADS_DEV_EMAIL='tbatalla@goodreads.com'

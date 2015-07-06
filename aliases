@@ -1,5 +1,5 @@
 alias gcm='git commit -m'
-alias bp='atom ~/.bash_profile'
+alias bp='sublime ~/.bash_profile'
 alias be='bundle exec'
 alias gph='git push heroku master'
 alias gcam='git commit -am'
