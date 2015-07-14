@@ -45,11 +45,11 @@ ZSH_THEME="avit"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rails ruby)
+plugins=(git ruby)
 
 # User configuration
 
-export PATH="/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/opt/local/bin:"
+export PATH="$HOME/.rvm/bin:/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/opt/local/bin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -85,11 +85,11 @@ eval "$(hub alias -s)"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+
 export PATH=/usr/local/bin:${PATH}
 export GOODREADS_RAILS_ROOT='/Users/tbatalla/code/goodreads_rails/rails-root'
 . $GOODREADS_RAILS_ROOT/script/platform/aliases.sh
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-export PS1='\W $ ' 
+# export PS1='%~ $ ' 
 export GOODREADS_DEV_EMAIL='tbatalla@goodreads.com'

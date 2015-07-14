@@ -15,7 +15,7 @@
   //
   // Note: If check_for_rvm and check_for_rbenv are both enabled,
   // the plugin will use RVM.
-  "check_for_rvm": false,
+  "check_for_rvm": true,
 
   // The path to RVM's rvm-auto-ruby binary
   "rvm_auto_ruby_path":  "~/.rvm/bin/rvm-auto-ruby",
@@ -25,7 +25,7 @@
   //
   // Note: If check_for_rvm and check_for_rbenv are both enabled,
   // the plugin will use RVM.
-  "check_for_rbenv": true,
+  "check_for_rbenv": false,
 
   // The path to rbenv's binary
   "rbenv_path":  "~/.rbenv/bin/rbenv",
