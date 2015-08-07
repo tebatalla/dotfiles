@@ -15,7 +15,7 @@
   //
   // Note: If check_for_rvm and check_for_rbenv are both enabled,
   // the plugin will use RVM.
-  "check_for_rvm": true,
+  "check_for_rvm": false,
 
   // The path to RVM's rvm-auto-ruby binary
   "rvm_auto_ruby_path":  "~/.rvm/bin/rvm-auto-ruby",
@@ -25,10 +25,10 @@
   //
   // Note: If check_for_rvm and check_for_rbenv are both enabled,
   // the plugin will use RVM.
-  "check_for_rbenv": false,
+  "check_for_rbenv": true,
 
   // The path to rbenv's binary
-  "rbenv_path":  "~/.rbenv/bin/rbenv",
+  "rbenv_path":  "/usr/local/bin/rbenv",
 
   // If you want issues to be marked automatically inside the view
   // set this to true.

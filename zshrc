@@ -49,7 +49,6 @@ plugins=(git ruby)
 
 # User configuration
 
-export PATH="$HOME/.rvm/bin:/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/Users/tomasbatalla/.rbenv/shims:/Users/tomasbatalla/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/opt/local/bin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -82,14 +81,11 @@ source $HOME/.aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(hub alias -s)"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
-
-export PATH=/usr/local/bin:${PATH}
+export PATH=${PATH}:/usr/local/bin
+eval "$(rbenv init -)"
 export GOODREADS_RAILS_ROOT='/Users/tbatalla/code/goodreads_rails/rails-root'
+export UBUNTU='/Volumes/root directory'
 . $GOODREADS_RAILS_ROOT/script/platform/aliases.sh
 
-# export PS1='%~ $ ' 
 export GOODREADS_DEV_EMAIL='tbatalla@goodreads.com'
+export PATH="/apollo/env/SDETools/bin:$PATH"
